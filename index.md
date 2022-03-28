@@ -1,54 +1,30 @@
 ---
 title: Amp Lab
 layout: page
-callouts: home_callouts
-show_sidebar: true
+#callouts: home_callouts
+show_sidebar: false
 theme_color: red
+hero_height: is-medium
+
 ---
 
-# Bulma Clean Theme demo website
+# Have an idea for a ECE project and want to build it for free?
 
-This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
+The Autonomous Mastery Prototyping (AMP) Lab is a lab space that gives electrical and computer engineering students the opportunity to gain hands-on experience and apply what they've learned in class with fun, hands-on projects. 
 
-<!-- [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
-![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
-![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social) -->
+Projects are chosen and created by the student, and are funded completely by the department! 
 
-## Ruby Gem
+## Any ECE student of any grade level can join!
 
-The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+Come join us for a fun time in the Amp Lab:
+Open House
+Soldering Training Request Form
 
-## GitHub Pages
 
-The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
+## Want to see what we're all about? 
 
-```yml
-remote_theme: chrisrhymes/bulma-clean-theme
-```
+Come see us at one of our open house events -- Open House
 
-## Documentation
+## If you can't make it to the Open House,
 
-For full instructions, please see the [Documentation](/bulma-clean-theme/docs/)
-
-## Page Layouts
-
-This demo site showcases the available page layout options. 
-
-* Sidebar
-* Menubar
-* Tabs
-* Footer
-* Hero
-* Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
-
-## Supported By JetBrains
-
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
-
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+Contact us to schedule a meeting at amp-lab-leadership-team-g@vt.edu 

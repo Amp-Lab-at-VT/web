@@ -1,8 +1,9 @@
 ---
 layout: page
 title: About
-menubar: docs_menu
+# menubar: docs_menu
 show_sidebar: false
+has_left_sidebar: false
 ---
 
 ## About Us

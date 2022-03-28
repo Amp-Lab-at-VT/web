@@ -1,0 +1,16 @@
+current directory: /home/forsythcreations/git/Website/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20220327-10356-std340.rb extconf.rb
+creating Makefile
+
+current directory: /home/forsythcreations/git/Website/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /home/forsythcreations/git/Website/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/forsythcreations/git/Website/vendor/cache/ruby/2.7.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20220327-10356-4g4pu5

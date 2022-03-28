@@ -1,10 +1,10 @@
-I"6<h1 id="bulma-clean-theme-demo-website">Bulma Clean Theme demo website</h1>
+I"ý<h1 id="bulma-clean-theme-demo-website">Bulma Clean Theme demo website</h1>
 
 <p>This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages.</p>
 
-<p><a href="https://badge.fury.io/rb/bulma-clean-theme"><img src="https://badge.fury.io/rb/bulma-clean-theme.svg" alt="Gem Version" /></a>
-<img src="https://img.shields.io/gem/dt/bulma-clean-theme.svg" alt="Gem" />
-<img src="https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social" alt="GitHub Repo stars" /></p>
+<!-- [![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
+![GitHub Repo stars](https://img.shields.io/github/stars/chrisrhymes/bulma-clean-theme?style=social) -->
 
 <h2 id="ruby-gem">Ruby Gem</h2>
 

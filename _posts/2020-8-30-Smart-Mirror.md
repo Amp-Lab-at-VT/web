@@ -18,7 +18,7 @@ Henry Forsyth, Computer Engineering Student (2023)
 rhforsythjr@vt.edu
 
 ## Repo Link
-<a class="button is-link">https://magicmirror.builders/</a>
+<a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
 
 ## Photo
 ![amp-map](/web/img/ProjectPhotos/MagicMirror){:class="img-responsive"}

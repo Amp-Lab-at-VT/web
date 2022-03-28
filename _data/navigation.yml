@@ -1,0 +1,26 @@
+- name: About 
+  link: /about/
+  dropdown:
+    - name: Location
+      link: /location/
+    - name: People
+      link: /people/
+- name: Get Involved 
+  link: /getinvolved/
+  dropdown:
+    - name: How To Join
+      link: /location/
+    - name: Soldering
+      link: /people/
+    - name: Create A Project
+      link: /location/
+    - name: Open House
+      link: /soldering/
+- name: Projects
+  link: /blog/
+- name: FAQ
+  link: /faq/
+- name: Resources
+  link: /resources/
+- name: Quick Links
+  link: /quick_links/

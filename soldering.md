@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Soldering
 menubar: docs_menu
 show_sidebar: false
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: FAQ
 menubar: docs_menu
 show_sidebar: false
 ---

@@ -1,5 +1,6 @@
 ---
 layout: no-title
+title: test
 #callouts: home_callouts
 show_sidebar: false
 theme_color: red

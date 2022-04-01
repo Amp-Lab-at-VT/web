@@ -1,13 +1,11 @@
 ---
-#title: Amp Lab
+title:
 layout: page
 #callouts: home_callouts
 show_sidebar: false
 theme_color: red
 hero_height: is-medium
 hero_image: /web/img/AmpLogo.png
-
-
 ---
 
 # Have an idea for a ECE project and want to build it for free?

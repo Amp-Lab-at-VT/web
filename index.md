@@ -1,6 +1,5 @@
 ---
-title:
-layout: page
+layout: no-title
 #callouts: home_callouts
 show_sidebar: false
 theme_color: red

@@ -18,7 +18,7 @@
       link: /openhouse/
 - name: Projects
   link: /blog/
-- name: FAQ
-  link: /faq/
-- name: Resources
-  link: /resources/
+# - name: FAQ
+#   link: /faq/
+# - name: Resources
+#   link: /resources/

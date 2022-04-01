@@ -1,10 +1,12 @@
 ---
-title: Amp Lab
+#title: Amp Lab
 layout: page
 #callouts: home_callouts
 show_sidebar: false
 theme_color: red
 hero_height: is-medium
+hero_image: /web/img/AmpLogo.png
+
 
 ---
 

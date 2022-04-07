@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quickstart
+title: Tutorial
 show_sidebar: false
 ---
 <b>PSA: There is a "Frequenty Asked Questions" section at the bottom of this page if any of the concepts are unfamiliar<b>
@@ -138,18 +138,19 @@ git push
 
 Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
 
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest1.png){:class="img-responsive"}
+
+Make sure you are merging from your branch to main before creating the pull request!
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest2.png){:class="img-responsive"}
+
 Click on the "Pull Request" tab, and ask to merge **your branch** with **master**. This is shown below:
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest3.png){:class="img-responsive"}
 
 Leave a comment for the mentors, and you're good to go! 
 
-## Recap
-
-You will be responsible for editing these files in the future:
-
-``` bash
-_posts/<date_yourProjectName>
-img/<projectName>
-``` 
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest4.png){:class="img-responsive"}
 
 <hr>
 
@@ -157,8 +158,7 @@ img/<projectName>
 Finally, to store all your project files, you'll need to create a repo under the AmpLabVT GitHub organization. Do so by doing the following:
 
 
-
-
+## Step 6: Final Notes
 
 And that's it, you're officially set up! From now on, you'll be responsible for these three things:
 >
@@ -170,8 +170,17 @@ And that's it, you're officially set up! From now on, you'll be responsible for 
    - All other data for your project gets stored here
 >
 
-For more info on pushing code using **git**, go here:
+For more info on pushing code using **git**, go here: <a href="https://dev.to/mrfrontend/git-101--step-2-add-stage-commit--push-3p3p" >Submitting a Commit to Git</a>
 
+***TLDR*** all you really need are these three commands for pushing your local data:
+
+``` bash
+git add -u
+git commit -m "new message"
+git push
+```
+
+<hr>
 
 ## FAQ
 

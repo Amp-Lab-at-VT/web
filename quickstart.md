@@ -21,13 +21,17 @@ It is also recommended that you install Visual Code Studio, a common IDE used in
 
 ## Step 1: Shoot us an Email
 Before going through these steps, make sure to shoot us an email! That way we can get you started on your projects. Here is out email:
-```
+``` bash
 amp-lab-leadership-team-g@vt.edu 
 ```
+
 <hr>
+
 ## Step 2: Get Connected to Our GitHub Website
+
+### Part A:
 Follow the steps below to get your repo all set up. This will make a folder in your home directory. Open a bash terminal to get started:
-```
+``` bash
 cd
 mkdir AmpLab
 cd AmpLab
@@ -35,35 +39,111 @@ git clone https://github.com/Amp-Lab-at-VT/web.git
 cd web
 ```
 Now that you're in your folder, let's open it in Visual Code and give you the quick overview. Type the following to open Visual Studio Code:
-```
+``` bash
 code .
 ```
 From here, you can open a terminal in Visual Studio Code (Also just called VS code). See image below:
 
-**ADD IMAGE HERE**
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/Terminal.png){:class="img-responsive"}
 
-Now we're going to create a branch. It's just like a tree: all core, working code happens on the main/master branch. All development happens on branches, which can be merged in. See this video for reference: 
+Now we're going to create a branch. It's just like a tree: all core, working code happens on the **main/master** branch. All development happens on **branches**, which can be merged in. See this video for reference: 
 <a href="https://www.youtube.com/watch?v=S2TUommS3O0" >Learn More About Branching and Merging</a>
 
 **Note that "Name" can be whatever you want**
 
-```
+``` bash
 git checkout -b “Name” 
 ```
 
 As a sanity check, try running the following command
 
-```
+``` bash
 git branch
 ```
 
 You should see "main" and the name of your branch. The fact that your name is green and has a star next to it means you did this step properly!
 
-Alright, we're done with the CLI for now! Let's start using Visual Code. Here's a quick walkthrough of the thinks you need to worry about:
+Alright, we're done with the CLI for now! Let's start using Visual Code.
+
+<hr>
+
+### Part B:
+
+There are two folders you need to keep track of:  **WARNING: DO NOT EDIT ANY OTHER FOLDERS. THESE ARE AUTO-GENERATED, AND SHOULD NOT BE TOUCHED**
+
+
+``` text
+img
+_posts
+```
+
+See below:
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/usefulFolders.png){:class="img-responsive"}
+
+You will be putting all your files into these two locations. Make a copy of the project template found in **_posts** using the instructions below:
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/copyTemplate2.png){:class="img-responsive"}
+
+Now, rename the template. The dating scheme is **year, month, day**. This is critical! Also use a dash ```-``` as your word divider, **instead of spaces**. See below:
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/renameTemplate.png){:class="img-responsive"}
+
+Now, edit the top of your project file. Go ahead and update the fields with your info. **Make sure the date in this section matches the name of your file**
+
+**Do not change the layout type**
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/makeProjectTheSame.png){:class="img-responsive"}
+
+Now, fill in your project specs. If you have images to add, that will be covered soon! For tips on markdown, go here: <a href="https://www.markdownguide.org/cheat-sheet/" >Learn More About Markdown</a>
+
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/filledInExpectations.png){:class="img-responsive"}
+
+<hr>
+
+### Part C:
+
+Next Up, create a folder to store your folders in! For this, we will be using the ```img``` folder. See below. Please make a folder that with the same name as your project. Again, **no spaces**!
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/newFolderInImages2.png){:class="img-responsive"}
+
+Note, ```MyFirstProject``` is a fake name. Rename it to what you want!
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/myfirstprojectFolder.png){:class="img-responsive"}
+
+Great, your're all set up! Now let's go over submiting this to Github. 
+
+## Step 4: Github Submission
+
+In your terminal, type the following:
+
+``` bash
+pwd
+```
+
+This will tell you which directory you are in. Type the following to back up to the ```web``` folder:
+
+```bash
+cd ..
+```
+
+Once there, type the following:
+
+```bash
+git add -u
+git commit -m "Say whatever you want here! This is a comment for you"
+git push
+```
+
+Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
+
+
 
 <hr>
 
 ## Step 3: Create A Repo Under the Amp Lab
+
 
 
 ## FAQ

@@ -1,4 +1,4 @@
-I"`<p><b>PSA: There is a “Frequenty Asked Questions” section at the bottom of this page if any of the concepts are unfamiliar<b></b></b></p>
+I"\<p><b>PSA: There is a “Frequenty Asked Questions” section at the bottom of this page if any of the concepts are unfamiliar<b></b></b></p>
 
 <h2 id="overview">Overview</h2>
 
@@ -15,41 +15,63 @@
 
 <h2 id="step-1-shoot-us-an-email">Step 1: Shoot us an Email</h2>
 <p>Before going through these steps, make sure to shoot us an email! That way we can get you started on your projects. Here is out email:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>amp-lab-leadership-team-g@vt.edu 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>amp-lab-leadership-team-g@vt.edu 
 </code></pre></div></div>
+
 <hr />
 
 <h2 id="step-2-get-connected-to-our-github-website">Step 2: Get Connected to Our GitHub Website</h2>
+
+<h3 id="part-a">Part A:</h3>
 <p>Follow the steps below to get your repo all set up. This will make a folder in your home directory. Open a bash terminal to get started:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd
-mkdir AmpLab
-cd AmpLab
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd
+mkdir </span>AmpLab
+<span class="nb">cd </span>AmpLab
 git clone https://github.com/Amp-Lab-at-VT/web.git
-cd web
+<span class="nb">cd </span>web
 </code></pre></div></div>
 <p>Now that you’re in your folder, let’s open it in Visual Code and give you the quick overview. Type the following to open Visual Studio Code:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code .
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code <span class="nb">.</span>
 </code></pre></div></div>
 <p>From here, you can open a terminal in Visual Studio Code (Also just called VS code). See image below:</p>
 
-<p><strong>ADD IMAGE HERE</strong></p>
+<p><img src="/web/img/TutorialPhotos/Terminal.png" alt="amp-map" class="img-responsive" /></p>
 
-<p>Now we’re going to create a branch. It’s just like a tree: all core, working code happens on the main/master branch. All development happens on branches, which can be merged in. See this video for reference: 
+<p>Now we’re going to create a branch. It’s just like a tree: all core, working code happens on the <strong>main/master</strong> branch. All development happens on <strong>branches</strong>, which can be merged in. See this video for reference: 
 <a href="https://www.youtube.com/watch?v=S2TUommS3O0">Learn More About Branching and Merging</a></p>
 
 <p><strong>Note that “Name” can be whatever you want</strong></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout -b “Name” 
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> “Name” 
 </code></pre></div></div>
 
 <p>As a sanity check, try running the following command</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch
 </code></pre></div></div>
 
 <p>You should see “main” and the name of your branch. The fact that your name is green and has a star next to it means you did this step properly!</p>
 
-<p>Alright, we’re done with the CLI for now! Let’s start using Visual Code. Here’s a quick walkthrough of the thinks you need to worry about:</p>
+<p>Alright, we’re done with the CLI for now! Let’s start using Visual Code.</p>
+
+<p>There are two folders you need to keep track of:  <strong>WARNING: DO NOT EDIT ANY OTHER FOLDERS. THESE ARE AUTO-GENERATED, AND SHOULD NOT BE TOUCHED</strong></p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>img
+_posts
+</code></pre></div></div>
+
+<p>See below:</p>
+
+<p><img src="/web/img/TutorialPhotos/usefulFolders.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>You will be putting all your files into these two locations. Make a copy of the project template found in <strong>_posts</strong> using the instructions below:</p>
+
+<p><img src="/web /img/TutorialPhotos/copyTemplate2.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Now, rename the template. The dating scheme is <strong>year, month, day</strong>. This is critical! Also use a dash <code class="language-plaintext highlighter-rouge">-</code> as your word divider, <strong>instead of spaces</strong></p>
+
+<p><img src="/web/img/TutorialPhotos/renameTemplate.png" alt="amp-map" class="img-responsive" />
+<img src="/web/img/TutorialPhotos/usefulFolders.png" alt="amp-map" class="img-responsive" /></p>
 
 <hr />
 

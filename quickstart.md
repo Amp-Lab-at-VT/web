@@ -138,13 +138,38 @@ git push
 
 Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
 
+Click on the "Pull Request" tab, and ask to merge **your branch** with **master**. This is shown below:
 
+Leave a comment for the mentors, and you're good to go! 
+
+## Recap
+
+You will be responsible for editing these files in the future:
+
+``` bash
+_posts/<date_yourProjectName>
+img/<projectName>
+``` 
 
 <hr>
 
-## Step 3: Create A Repo Under the Amp Lab
+## Step 5: Create A Repo Under the Amp Lab
+Finally, to store all your project files, you'll need to create a repo under the AmpLabVT GitHub organization. Do so by doing the following:
 
 
+
+
+
+And that's it, you're officially set up! From now on, you'll be responsible for these three things:
+
+1. _posts/<date_yourProjectName>
+   - This is the file that will be publicly available, and is the one you'll send to your mentor
+2. img/<projectName>
+   - Store all your images here
+3. Project Repo
+   - All other data for your project gets stored here
+
+For more info on pushing code using **git**, go here:
 
 ## FAQ
 

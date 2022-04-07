@@ -1,5 +1,5 @@
 ---
-layout: gallery
+layout: page
 title: Location
 show_sidebar: false
 ---

@@ -1,4 +1,4 @@
-I"�#<p><b>PSA: There is a “Frequenty Asked Questions” section at the bottom of this page if any of the concepts are unfamiliar<b></b></b></p>
+I"�$<p><b>PSA: There is a “Frequenty Asked Questions” section at the bottom of this page if any of the concepts are unfamiliar<b></b></b></p>
 
 <h2 id="overview">Overview</h2>
 
@@ -121,17 +121,19 @@ git push
 
 <p>Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web">Amp Lab Website Github Origin</a></p>
 
+<p><img src="/web/img/TutorialPhotos/pullRequest1.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Make sure you are merging from your branch to main before creating the pull request!</p>
+
+<p><img src="/web/img/TutorialPhotos/pullRequest2.png" alt="amp-map" class="img-responsive" /></p>
+
 <p>Click on the “Pull Request” tab, and ask to merge <strong>your branch</strong> with <strong>master</strong>. This is shown below:</p>
+
+<p><img src="/web/img/TutorialPhotos/pullRequest3.png" alt="amp-map" class="img-responsive" /></p>
 
 <p>Leave a comment for the mentors, and you’re good to go!</p>
 
-<h2 id="recap">Recap</h2>
-
-<p>You will be responsible for editing these files in the future:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/&lt;date_yourProjectName&gt;
-img/&lt;projectName&gt;
-</code></pre></div></div>
+<p><img src="/web/img/TutorialPhotos/pullRequest4.png" alt="amp-map" class="img-responsive" /></p>
 
 <hr />
 
@@ -162,6 +164,8 @@ img/&lt;projectName&gt;
 </blockquote>
 
 <p>For more info on pushing code using <strong>git</strong>, go here:</p>
+
+<hr />
 
 <h2 id="faq">FAQ</h2>
 

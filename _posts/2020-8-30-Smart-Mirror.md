@@ -13,6 +13,8 @@ author: Henry Forsyth
 show_sidebar: false
 ---
 
+
+
 ## Members
 Henry Forsyth, Computer Engineering Student (2023)
 rhforsythjr@vt.edu
@@ -21,7 +23,7 @@ rhforsythjr@vt.edu
 <a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
 
 ## Photo
-![amp-map](/web/img/ProjectPhotos/MagicMirror){:class="img-responsive"}
+{% include youtube.html video="miltuOLWDFQ" %}
 
 ## Mentor
 Josh Sutton, Electrical Engineering 2021

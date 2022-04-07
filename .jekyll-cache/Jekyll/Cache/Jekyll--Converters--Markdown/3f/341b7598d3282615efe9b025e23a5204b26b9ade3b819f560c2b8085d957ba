@@ -1,0 +1,185 @@
+I"�#<p><b>PSA: There is a “Frequenty Asked Questions” section at the bottom of this page if any of the concepts are unfamiliar<b></b></b></p>
+
+<h2 id="overview">Overview</h2>
+
+<p>Here at the Amp Lab, you are expected to update the website with the latest info for your project. To update the website, you will be using git. This tutorial uses the command line, but if you are comfortable you may use the Github GUI. For now, click one of the buttons below to install git.</p>
+
+<p><a class="button is-link" href="https://git-scm.com/download/win">Install Git for Windows</a>
+<a class="button is-link" href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">Install Git for Linux/Apple</a></p>
+
+<p>It is also recommended that you install Visual Code Studio, a common IDE used in industry:</p>
+
+<p><a class="button is-link" href="https://code.visualstudio.com/download">Download Visual Code</a></p>
+
+<hr />
+
+<h2 id="step-1-shoot-us-an-email">Step 1: Shoot us an Email</h2>
+<p>Before going through these steps, make sure to shoot us an email! That way we can get you started on your projects. Here is out email:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>amp-lab-leadership-team-g@vt.edu 
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="step-2-get-connected-to-our-github-website">Step 2: Get Connected to Our GitHub Website</h2>
+
+<h3 id="part-a">Part A:</h3>
+<p>Follow the steps below to get your repo all set up. This will make a folder in your home directory. Open a bash terminal to get started:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd
+mkdir </span>AmpLab
+<span class="nb">cd </span>AmpLab
+git clone https://github.com/Amp-Lab-at-VT/web.git
+<span class="nb">cd </span>web
+</code></pre></div></div>
+<p>Now that you’re in your folder, let’s open it in Visual Code and give you the quick overview. Type the following to open Visual Studio Code:</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code <span class="nb">.</span>
+</code></pre></div></div>
+<p>From here, you can open a terminal in Visual Studio Code (Also just called VS code). See image below:</p>
+
+<p><img src="/web/img/TutorialPhotos/Terminal.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Now we’re going to create a branch. It’s just like a tree: all core, working code happens on the <strong>main/master</strong> branch. All development happens on <strong>branches</strong>, which can be merged in. See this video for reference: 
+<a href="https://www.youtube.com/watch?v=S2TUommS3O0">Learn More About Branching and Merging</a></p>
+
+<p><strong>Note that “Name” can be whatever you want</strong></p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> “Name” 
+</code></pre></div></div>
+
+<p>As a sanity check, try running the following command</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch
+</code></pre></div></div>
+
+<p>You should see “main” and the name of your branch. The fact that your name is green and has a star next to it means you did this step properly!</p>
+
+<p>Alright, we’re done with the CLI for now! Let’s start using Visual Code.</p>
+
+<hr />
+
+<h3 id="part-b">Part B:</h3>
+
+<p>There are two folders you need to keep track of:  <strong>WARNING: DO NOT EDIT ANY OTHER FOLDERS. THESE ARE AUTO-GENERATED, AND SHOULD NOT BE TOUCHED</strong></p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>img
+_posts
+</code></pre></div></div>
+
+<p>See below:</p>
+
+<p><img src="/web/img/TutorialPhotos/usefulFolders.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>You will be putting all your files into these two locations. Make a copy of the project template found in <strong>_posts</strong> using the instructions below:</p>
+
+<p><img src="/web/img/TutorialPhotos/copyTemplate2.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Now, rename the template. The dating scheme is <strong>year, month, day</strong>. This is critical! Also use a dash <code class="language-plaintext highlighter-rouge">-</code> as your word divider, <strong>instead of spaces</strong>. See below:</p>
+
+<p><img src="/web/img/TutorialPhotos/renameTemplate.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Now, edit the top of your project file. Go ahead and update the fields with your info. <strong>Make sure the date in this section matches the name of your file</strong></p>
+
+<p><strong>Do not change the layout type</strong></p>
+
+<p><img src="/web/img/TutorialPhotos/makeProjectTheSame.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Now, fill in your project specs. If you have images to add, that will be covered soon! For tips on markdown, go here: <a href="https://www.markdownguide.org/cheat-sheet/">Learn More About Markdown</a></p>
+
+<p><img src="/web/img/TutorialPhotos/filledInExpectations.png" alt="amp-map" class="img-responsive" /></p>
+
+<hr />
+
+<h3 id="part-c">Part C:</h3>
+
+<p>Next Up, create a folder to store your folders in! For this, we will be using the <code class="language-plaintext highlighter-rouge">img</code> folder. See below. Please make a folder that with the same name as your project. Again, <strong>no spaces</strong>!</p>
+
+<p><img src="/web/img/TutorialPhotos/newFolderInImages2.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Note, <code class="language-plaintext highlighter-rouge">MyFirstProject</code> is a fake name. Rename it to what you want!</p>
+
+<p><img src="/web/img/TutorialPhotos/myfirstprojectFolder.png" alt="amp-map" class="img-responsive" /></p>
+
+<p>Great, your’re all set up! Now let’s go over submiting this to Github.</p>
+
+<h2 id="step-4-github-submission">Step 4: Github Submission</h2>
+
+<p>In your terminal, type the following:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">pwd</span>
+</code></pre></div></div>
+
+<p>This will tell you which directory you are in. Type the following to back up to the <code class="language-plaintext highlighter-rouge">web</code> folder:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ..
+</code></pre></div></div>
+
+<p>Once there, type the following:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nt">-u</span>
+git commit <span class="nt">-m</span> <span class="s2">"Say whatever you want here! This is a comment for you"</span>
+git push
+</code></pre></div></div>
+
+<p>Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web">Amp Lab Website Github Origin</a></p>
+
+<p>Click on the “Pull Request” tab, and ask to merge <strong>your branch</strong> with <strong>master</strong>. This is shown below:</p>
+
+<p>Leave a comment for the mentors, and you’re good to go!</p>
+
+<h2 id="recap">Recap</h2>
+
+<p>You will be responsible for editing these files in the future:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_posts/&lt;date_yourProjectName&gt;
+img/&lt;projectName&gt;
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="step-5-create-a-repo-under-the-amp-lab">Step 5: Create A Repo Under the Amp Lab</h2>
+<p>Finally, to store all your project files, you’ll need to create a repo under the AmpLabVT GitHub organization. Do so by doing the following:</p>
+
+<p>And that’s it, you’re officially set up! From now on, you’ll be responsible for these three things:</p>
+<blockquote>
+
+  <ol>
+    <li>_posts/<date_yourProjectName>
+</date_yourProjectName>      <ul>
+        <li>This is the file that will be publicly available, and is the one you’ll send to your mentor</li>
+      </ul>
+    </li>
+    <li>img/<projectName>
+</projectName>      <ul>
+        <li>Store all your images here</li>
+      </ul>
+    </li>
+    <li>Project Repo
+      <ul>
+        <li>All other data for your project gets stored here</li>
+      </ul>
+    </li>
+  </ol>
+
+</blockquote>
+
+<p>For more info on pushing code using <strong>git</strong>, go here:</p>
+
+<h2 id="faq">FAQ</h2>
+
+<ul>
+  <li>What is bash?
+    <ul>
+      <li>“Bash” is a program interface. When you run a termincal, “bash” is the program connecting and interpretting your commands to make them “machine readible”.</li>
+    </ul>
+  </li>
+  <li>Why are we not using Google Sites?
+    <ul>
+      <li>Google Sites is a great platform. However, the best sites are still made with a little elbow grease. Besides that, this creates a great opportunity for you to use git, and learn it well. This is greatly looked for by recruiters <strong>cough</strong> put it on your resume that you know git <strong>cough</strong></li>
+    </ul>
+  </li>
+  <li>What on earth is a ‘CLI’?
+    <ul>
+      <li>A CLI is a “Command Line Interface”. It’s the quick way of saying terminal. They mean the same thing</li>
+    </ul>
+  </li>
+</ul>
+:ET

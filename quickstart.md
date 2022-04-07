@@ -138,12 +138,11 @@ git push
 
 Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
 
-
+And make a pull request. This will ask the mentors to pull your project in!
 
 <hr>
 
 ## Step 3: Create A Repo Under the Amp Lab
-
 
 
 ## FAQ

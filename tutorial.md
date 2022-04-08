@@ -157,6 +157,8 @@ Leave a comment for the mentors, and you're good to go!
 ## Step 5: Create A Repo Under the Amp Lab
 Finally, to store all your project files, you'll need to create a repo under the AmpLabVT GitHub organization. Do so by doing the following:
 
+**This section is currently under development**
+
 
 ## Step 6: Final Notes
 

@@ -40,7 +40,7 @@ cd web
 ```
 Now that you're in your folder, let's open it in Visual Code and give you the quick overview. Type the following to open Visual Studio Code:
 ``` bash
-code .
+code .   - This command does not function all the time
 ```
 From here, you can open a terminal in Visual Studio Code (Also just called VS code). See image below:
 
@@ -104,7 +104,7 @@ Now, fill in your project specs. If you have images to add, that will be covered
 
 ### Part C:
 
-Next Up, create a folder to store your folders in! For this, we will be using the ```img``` folder. See below. Please make a folder that with the same name as your project. Again, **no spaces**!
+Next Up, create a folder to store your images in! For this, we will be using the ```img``` folder. See below. Please make a folder that with the same name as your project. Again, **no spaces**!
 
 ![amp-map]({{ site.baseurl }}/img/TutorialPhotos/newFolderInImages2.png){:class="img-responsive"}
 

@@ -1,12 +1,12 @@
 - name: About 
-  link: site/about/
+  link: /about/
   dropdown:
     - name: Location
-      link: site/location/
+      link: /location/
     - name: People
-      link: site/people/
+      link: /people/
 - name: Get Involved 
-  link: site/getinvolved/
+  link: /getinvolved/
   dropdown:
     - name: How To Join
       link: /joining/
@@ -17,8 +17,4 @@
     - name: Open House
       link: /openhouse/
 - name: Projects
-  link: site/blog/
-# - name: FAQ
-#   link: /faq/
-# - name: Resources
-#   link: /resources/
+  link: /blog/

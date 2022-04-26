@@ -9,13 +9,13 @@
   link: site/getinvolved/
   dropdown:
     - name: How To Join
-      link: site/joining/
+      link: /joining/
     - name: Soldering
-      link: site/soldering/
+      link: /soldering/
     - name: Quickstart
-      link: site/quickstart/
+      link: /quickstart/
     - name: Open House
-      link: site/openhouse/
+      link: /openhouse/
 - name: Projects
   link: site/blog/
 # - name: FAQ

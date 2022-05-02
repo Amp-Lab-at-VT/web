@@ -131,7 +131,7 @@ cd ..
 Once there, type the following:
 
 ```bash
-git add -u
+git add .
 git commit -m "Say whatever you want here! This is a comment for you"
 git push
 ```

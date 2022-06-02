@@ -15,4 +15,4 @@ Download KiCad:
 
 Watch the tutorials:
 
-{% include youtube.html video="wLwKgMBWhpY" %}
+<!-- {% include youtube.html video="wLwKgMBWhpY" %} -->

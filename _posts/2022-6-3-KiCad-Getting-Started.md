@@ -11,8 +11,3 @@ show_sidebar: false
 
 Download KiCad:
 
-<a class="button is-link" href="https://www.kicad.org/download/" >Kicad</a>
-
-Watch the tutorials:
-
-<!-- {% include youtube.html video="wLwKgMBWhpY" %} -->

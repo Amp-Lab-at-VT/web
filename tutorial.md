@@ -52,15 +52,183 @@ For Windows: Go to your C: drive, then go to Users, and then select your user's 
 
 Feel free to put whatever files you need for your project in the assigned project folder (this is the one inside the AmpLab folder). However, there is a key file you will need to add: your post file.
 
-# Step 3: Updating your 
+# Step 3: Updating your Post File
 
-***TLDR*** all you really need are these three commands for pushing your local data:
+Your post file is written in markdown script, of which a tutorial is avalible here.
+
+For now, though, make a file in your project folder with the following naming convention
+
+```
+year-month-day-title.md
+```
+Note: there should be no spaces in this file. Here is an example of a good file name:
+
+```
+2022-9-1-Testing-Submodule-Workflow.md
+```
+
+Next, copy this text into the file:
+
+```md
+---
+layout: project_template
+title: Submodule Test
+description: Submodule Test
+date: 2020-8-30 09:00:00
+hero_image: /web/img/SampleProject/open_house.png
+image: /web/img/SampleProject/open_house.png
+hero_height: is-small
+hero_darken: true
+tags: project
+series: amp_lab_project
+author: Forsyth Creations
+show_sidebar: false
+---
+
+## Members
+
+## Repo Link
+<a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
+
+## Photo
+
+## Mentor
+
+## Current Status
+
+## Project Overview
+
+## Educational Value Added
+
+## Tasks
+
+## Design Decisions
+
+## Design Misc
+
+## Steps for Documenting Your Design Process
+
+## BOM + Component Cost
+
+## Timeline
+
+## Useful Links
+
+## Log
+```
+
+Next, update the file to reflect your project. But do not touch the following fields
+
+```
+layout
+series
+show_sidebar
+```
+
+Here is an example:
+
+```md
+---
+layout: project_template
+title: My Awesome New Project
+description: The Amp Lab is great
+date: 2022-6-2 09:00:00
+hero_image: /web/img/SampleProject/open_house.png
+image: /web/img/SampleProject/open_house.png
+hero_height: is-small
+hero_darken: true
+tags: project
+series: amp_lab_project
+author: Forsyth Creations
+show_sidebar: false
+---
+
+## Members
+Henry Forsyth, Computer Engineering Student (2023)
+email@vt.edu
+
+## Repo Link
+<a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
+
+## Photo
+
+## Mentor
+Josh Sutton, Electrical Engineering 2021
+
+## Current Status
+Complete
+
+## Project Overview
+
+Put whatever text you need here
+
+## Educational Value Added
+
+Put whatever text you need here
+
+## Tasks
+
+Put whatever text you need here
+
+## Design Decisions
+
+Put whatever text you need here
+
+## Design Misc
+
+Put whatever text you need here
+
+## Steps for Documenting Your Design Process
+
+Put whatever text you need here
+
+## BOM + Component Cost
+
+Put whatever text you need here
+
+## Timeline
+
+Put whatever text you need here
+
+## Useful Links
+
+Put whatever text you need here
+
+## Log
+
+Put whatever text you need here
+
+```
+
+In the repo link, provide the link to your repo as well as the name. Here is what is given in the template:
+
+```html
+<a class="button is-link" href="https://magicmirror.builders/" >https://magicmirror.builders/</a>
+```
+
+You can update it to look like the following, where you are only changing the href and the flavor text
+
+```html
+<a class="button is-link" href="https://github.com/Amp-Lab-at-VT/SampleProject" >Sample Project</a>
+```
+
+This code will produce the following on your website:
+<a class="button is-link" href="https://github.com/Amp-Lab-at-VT/SampleProject" >Sample Project</a>
+
+Just a simple button that will direct people to your work!
+
+
+# Step 4: Posting Your Files
+
+***TLDR*** all you really need are these three commands for pushing your local data to origin (GitHub). Open a terminal at the location of your project folder, and run these commands:
 
 ``` bash
-git add -u
-git commit -m "new message"
+git add .
+git commit -m "Put a custom message here"
 git push
 ```
+
+That's it, your done! Notify your mentor that you have updated your webpage, and they will take care of making sure the website gets updated!
 
 <hr>
 

@@ -24,9 +24,6 @@ Before going through these steps, make sure to shoot us an email! That way we ca
 ``` bash
 amp-lab-leadership-team-g@vt.edu 
 ```
-We will add you to our Github organization, which can be found below:
-
-<a class="button is-link" href="https://github.com/Amp-Lab-at-VT" >Amp Lab at VT</a>
 
 <hr>
 
@@ -39,19 +36,6 @@ cd
 mkdir AmpLab
 cd AmpLab
 git clone https://github.com/Amp-Lab-at-VT/web.git
-```
-
-You will also want to clone your new repo, which has been made for you within our organization. The command you need will look like this:
-
-``` bash
-git clone https://github.com/Amp-Lab-at-VT/SampleProject.git
-```
-
-With "SampleProject" being the name of your repo
-
-Next, change into the web directory (notice **c**hange **d**irectory is where cd comes from)
-
-``` bash
 cd web
 ```
 Now that you're in your folder, let's open it in Visual Code and give you the quick overview. Type the following to open Visual Studio Code:

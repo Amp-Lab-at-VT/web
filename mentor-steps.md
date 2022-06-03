@@ -4,27 +4,31 @@ title: Quickstart
 show_sidebar: false
 ---
 
-## Standard Tutorial:
+## Step 1: Making them a project repo
 
-Below is the recommended way of setting up your Github repositories. The bash script to automatically run the setup is still in beta, and is
-not stable. Do not use it until your mentor tells you it is okay
+Go here: https://github.com/Amp-Lab-at-VT
 
-<a class="button is-link" href="{{ site.baseurl }}/tutorial" >Tutorial</a>
+Select 'New" (If this is not visible, ask one of the admins for privalges to create new repos)
 
-<hr>
+Assign it a name
 
-## Bash Script (Beta)
 
-This script provides a command line interface for you to start your project. 
+## Step 2: Give them access to the repo
 
-**It is still in beta, so pleae do not use it until your mentor approves!**
+Share access to it with your mentee
 
-<hr>
 
-<hr>
+## Step 3: Adding the submodule of their project to the website
 
-## For The Mentors
+Clone the wbe repo
 
-When a project is first started, there are a few steps that you will need to follow to make sure your mentees can publish their work on the site. Follow the steps below to get started
+go to web/assets and web/_posts and run the following command, putting your mentee's repo in place of the linked repo below:
 
-<a class="button is-link" href="{{ site.baseurl }}/mentor-steps" >Tutorial</a>
+``` bash
+git submodule add https://github.com/Amp-Lab-at-VT/SampleProject.git
+```
+
+
+## Step 4: Maintaining and Keeping the Submodule updated
+
+Submodules are always tied to a particular commmit within the history of the project. That means that you will have to update it from time to time to keep the website current. 

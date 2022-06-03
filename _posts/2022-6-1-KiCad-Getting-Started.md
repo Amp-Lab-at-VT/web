@@ -9,6 +9,7 @@ hero_image: /web/img/TutorialPhotos/kicad.jpg
 image: /web/img/TutorialPhotos/kicad.jpg
 hero_height: is-medium
 hero_darken: true
+tags: tutorial
 ---
 
 # Getting Started 

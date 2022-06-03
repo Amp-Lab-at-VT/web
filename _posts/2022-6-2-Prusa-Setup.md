@@ -9,6 +9,7 @@ hero_image: /web/img/TutorialPhotos/Prusa.jpg
 image: /web/img/TutorialPhotos/Prusa.jpg
 hero_height: is-medium
 hero_darken: true
+tags: tutorial
 ---
 
 # Getting Started 
@@ -58,7 +59,7 @@ Drag a 3D mesh part file (STL or 3mf) into the slicer, and orient it as needed. 
 
 Export that gcode to the SD card from the printer (Take the SD card out of the Prusa printer to do this). Once it is on the SD card, plug it back into the printer
 
-Find your file.
+Find your file on the Prusa, and get started printing. Happy travels!
 
 
 

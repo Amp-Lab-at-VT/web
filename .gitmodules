@@ -4,3 +4,6 @@
 [submodule "assets/SampleProject"]
 	path = assets/SampleProject
 	url = https://github.com/Amp-Lab-at-VT/SampleProject.git
+[submodule "img/SampleProject"]
+	path = img/SampleProject
+	url = https://github.com/Amp-Lab-at-VT/SampleProject.git

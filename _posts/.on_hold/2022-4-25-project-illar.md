@@ -1,6 +1,6 @@
 ---
 layout: project_template
-title: the_ni_button
+title: The Ni Button
 description: Button to help with saying um during presentations
 date: 2022-4-25 09:00:00
 hero_height: is-small

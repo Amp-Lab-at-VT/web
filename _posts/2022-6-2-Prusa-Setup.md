@@ -14,7 +14,11 @@ tags: tutorial
 
 # Getting Started 
 
-Download the Prusa slicer and accept all the default settings
+Download the Prusa slicer 
+
+<a class="button is-link" href="https://www.prusa3d.com/page/prusaslicer_424/" >Download Prusa Slicer Here</a>
+
+Accept all the default settings
 
 # Setting Up The Printer
 

@@ -4,9 +4,9 @@ title: Smart Mirror
 description: Home Automation Smart Mirror
 date: 2020-8-30 09:00:00
 hero_image: /web/img/ProjectPhotos/MagicMirror
-image: /web/img/ProjectPhotos/MagicMirror
 hero_height: is-small
 hero_darken: true
+image: /web/img/ProjectPhotos/MagicMirror
 tags: project
 series: amp_lab_project
 author: Henry Forsyth

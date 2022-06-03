@@ -6,7 +6,8 @@ date: 2022-6-2 09:00:00
 author: Kavya
 show_sidebar: false
 hero_image: /web/img/TutorialPhotos/Prusa.jpg
-hero_height: is-small
+image: /web/img/TutorialPhotos/Prusa.jpg
+hero_height: is-medium
 hero_darken: true
 ---
 

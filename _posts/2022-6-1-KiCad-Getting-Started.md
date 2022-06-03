@@ -6,7 +6,8 @@ date: 2022-6-1 09:00:01
 author: Richard Gibbons
 show_sidebar: false
 hero_image: /web/img/TutorialPhotos/kicad.jpg
-hero_height: is-small
+image: /web/img/TutorialPhotos/kicad.jpg
+hero_height: is-medium
 hero_darken: true
 ---
 

@@ -212,11 +212,11 @@ You can update it to look like the following, where you are only changing the hr
 <a class="button is-link" href="https://github.com/Amp-Lab-at-VT/SampleProject" >Sample Project</a>
 ```
 
-This code will produce the following on your website:
+This code will produce the following on your website.
+Just a simple button that will direct people to your work:
+
 
 <a class="button is-link" href="https://github.com/Amp-Lab-at-VT/SampleProject" >Sample Project</a>
-
-Just a simple button that will direct people to your work!
 
 
 # Step 4: Posting Your Files

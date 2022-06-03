@@ -213,6 +213,7 @@ You can update it to look like the following, where you are only changing the hr
 ```
 
 This code will produce the following on your website:
+
 <a class="button is-link" href="https://github.com/Amp-Lab-at-VT/SampleProject" >Sample Project</a>
 
 Just a simple button that will direct people to your work!

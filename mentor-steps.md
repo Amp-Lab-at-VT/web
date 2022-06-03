@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quickstart
+title: Mentor Steps
 show_sidebar: false
 ---
 
@@ -22,7 +22,7 @@ Share access to it with your mentee
 
 Clone the wbe repo
 
-go to web/assets and web/_posts and run the following command, putting your mentee's repo in place of the linked repo below:
+go to web/img and web/_posts and run the following command, putting your mentee's repo in place of the linked repo below:
 
 ``` bash
 git submodule add https://github.com/Amp-Lab-at-VT/SampleProject.git
@@ -31,4 +31,8 @@ git submodule add https://github.com/Amp-Lab-at-VT/SampleProject.git
 
 ## Step 4: Maintaining and Keeping the Submodule updated
 
-Submodules are always tied to a particular commmit within the history of the project. That means that you will have to update it from time to time to keep the website current. 
+Submodules are always tied to a particular commmit within the history of the project. That means that you will have to update it from time to time to keep the website current. Use the following command from time to time in web/img and web/_posts to keep the submodules current
+
+``` bash
+git submodule foreach git pull origin master
+```

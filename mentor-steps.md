@@ -20,7 +20,7 @@ Share access to it with your mentee
 
 ## Step 3: Adding the submodule of their project to the website
 
-Clone the wbe repo
+Clone the web repo
 
 go to web/img and web/_posts and run the following command, putting your mentee's repo in place of the linked repo below:
 

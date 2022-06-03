@@ -27,4 +27,4 @@ This script provides a command line interface for you to start your project.
 
 When a project is first started, there are a few steps that you will need to follow to make sure your mentees can publish their work on the site. Follow the steps below to get started
 
-<a class="button is-link" href="{{ site.baseurl }}/mentor-steps" >Mentor Steps</a>
+<a class="button is-link" href="{{ site.baseurl }}/mentor-steps" >Tutorial</a>

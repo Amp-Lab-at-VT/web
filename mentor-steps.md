@@ -87,7 +87,7 @@ When you are done with these steps, remember that you are on a branch that has b
 
 Another mentor will see your PR, and approve it. These is done as a sanity check for the student team
 
-**Note that is 'git checkout master' doesn't work, you may need to run 'git checkout main'**
+**Note that if 'git checkout master' doesn't work, you may need to run 'git checkout main'**
 ```bash
 git checkout master
 git branch 

@@ -4,3 +4,9 @@
 [submodule "img/SampleProject"]
 	path = img/SampleProject
 	url = https://github.com/Amp-Lab-at-VT/SampleProject.git
+[submodule "img/Rich-s_stuff"]
+	path = img/Rich-s_stuff
+	url = https://github.com/Amp-Lab-at-VT/Rich-s_stuff.git
+[submodule "_posts/Rich-s_stuff"]
+	path = _posts/Rich-s_stuff
+	url = https://github.com/Amp-Lab-at-VT/Rich-s_stuff.git

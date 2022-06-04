@@ -85,10 +85,16 @@ Leave a comment for the mentors, and you're good to go!
 
 When you are done with these steps, remember that you are on a branch that has been submitted to master through a PR. Once the PR is accepted, it is wise to just start fresh. Follow these steps to make sure you are always working on the latest code.
 
-**Note that is 'git checkout master' doesn't work, you 
+**Note that is 'git checkout master' doesn't work, you may need to run 'git checkout main'**
 ```bash
 git checkout master
+git branch 
+```
 
+**git branch** will show you a list of your local branches. Delete the one that is not master
+
+```bash
+git branch -d name_of_branch
 ```
 
 ## Step 5: Maintaining and Keeping the Submodule updated

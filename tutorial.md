@@ -36,6 +36,10 @@ Once you are added, you will have access to your own project repo: where you can
 
 Now that you have the link to your repo, let's go through a few things. First, let's clone that repo. 
 
+
+**Tilda is a linux thing, update it for windows**
+**Update the paste_your_repo_link_here to be more clear**
+
 ``` bash
 cd ~
 mkdir AmpLab
@@ -56,7 +60,7 @@ Feel free to put whatever files you need for your project in the assigned projec
 
 Your post file is written in markdown script, of which a tutorial is avalible here.
 
-For now, though, make a file in your project folder with the following naming convention
+For now, though, make a file in your project folder with the following naming convention. This can be done in Visual Code very easily, and those instructions **will be avalible soon**
 
 ```
 year-month-day-title.md
@@ -200,6 +204,8 @@ Put whatever text you need here
 
 ```
 
+**The button needs to be updated**
+**Make which URL you need more clear**
 In the repo link, provide the link to your repo as well as the name. Here is what is given in the template:
 
 ```html
@@ -211,6 +217,8 @@ You can update it to look like the following, where you are only changing the hr
 ```html
 <a class="button is-link" href="https://github.com/Amp-Lab-at-VT/SampleProject" >Sample Project</a>
 ```
+
+**Make the naming convention here more clear**
 
 This code will produce the following on your website.
 Just a simple button that will direct people to your work:

@@ -56,7 +56,7 @@ cd ..
 
 ## Step 4: Submit a PR to Master
 
-Commit the branch to master
+Commit the branch to master, from the originial working directory (web)
 
 ```bash
 git add .
@@ -84,6 +84,8 @@ Leave a comment for the mentors, and you're good to go!
 
 
 When you are done with these steps, remember that you are on a branch that has been submitted to master through a PR. Once the PR is accepted, it is wise to just start fresh. Follow these steps to make sure you are always working on the latest code.
+
+Another mentor will see your PR, and approve it. These is done as a sanity check for the student team
 
 **Note that is 'git checkout master' doesn't work, you may need to run 'git checkout main'**
 ```bash

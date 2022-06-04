@@ -54,8 +54,25 @@ git submodule add https://github.com/Amp-Lab-at-VT/SampleProject.git
 cd ..
 ```
 
+## Step 4: Submit a PR to Master
 
-## Step 4: Maintaining and Keeping the Submodule updated
+Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest1.png){:class="img-responsive"}
+
+Make sure you are merging from your branch to main before creating the pull request!
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest2.png){:class="img-responsive"}
+
+Click on the "Pull Request" tab, and ask to merge **your branch** with **master**. This is shown below:
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest3.png){:class="img-responsive"}
+
+Leave a comment for the mentors, and you're good to go! 
+
+![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest4.png){:class="img-responsive"}
+
+## Step 5: Maintaining and Keeping the Submodule updated
 
 Submodules are always tied to a particular commmit within the history of the project. That means that you will have to update it from time to time to keep the website current. Use the following command from time to time in web/img and web/_posts to keep the submodules current
 

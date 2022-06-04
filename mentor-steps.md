@@ -56,6 +56,16 @@ cd ..
 
 ## Step 4: Submit a PR to Master
 
+Commit the branch to master
+
+```bash
+git add .
+git commit -m "Submmitting a PR to add a student project: Student Project Name"
+git push
+```
+
+You will be promptd with a line to run to push your branch to master
+
 Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
 
 ![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest1.png){:class="img-responsive"}
@@ -71,6 +81,15 @@ Click on the "Pull Request" tab, and ask to merge **your branch** with **master*
 Leave a comment for the mentors, and you're good to go! 
 
 ![amp-map]({{ site.baseurl }}/img/TutorialPhotos/pullRequest4.png){:class="img-responsive"}
+
+
+When you are done with these steps, remember that you are on a branch that has been submitted to master through a PR. Once the PR is accepted, it is wise to just start fresh. Follow these steps to make sure you are always working on the latest code.
+
+**Note that is 'git checkout master' doesn't work, you 
+```bash
+git checkout master
+
+```
 
 ## Step 5: Maintaining and Keeping the Submodule updated
 

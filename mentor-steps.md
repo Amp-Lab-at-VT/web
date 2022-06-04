@@ -91,6 +91,8 @@ When you are done with these steps, remember that you are on a branch that has b
 
 Another mentor will see your PR, and approve it. These is done as a sanity check for the student team
 
+What follows are clean up steps to git you back on the latest version of master
+
 **Note that if 'git checkout master' doesn't work, you may need to run 'git checkout main'**
 ```bash
 git checkout master
@@ -101,6 +103,12 @@ git branch
 
 ```bash
 git branch -d name_of_branch
+```
+
+Finally, run a git pull to update master 
+
+```bash
+git pull
 ```
 
 ## Step 5: Maintaining and Keeping the Submodule updated

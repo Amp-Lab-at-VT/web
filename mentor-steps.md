@@ -64,7 +64,11 @@ git commit -m "Submmitting a PR to add a student project: Student Project Name"
 git push
 ```
 
-You will be promptd with a line to run to push your branch to master
+You will be promptd with a line to run to push your branch to master. It should look something like this:
+
+```bash
+git push --set-upstream origin Sample_Project
+```
 
 Wonderful! Now go in and make a pull request. Go here: <a href="https://github.com/Amp-Lab-at-VT/web" >Amp Lab Website Github Origin</a>
 

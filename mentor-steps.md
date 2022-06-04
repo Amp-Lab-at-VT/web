@@ -119,6 +119,7 @@ It should say "already up to date".
 Submodules are always tied to a particular commmit within the history of the project. That means that you will have to update it from time to time to keep the website current. Use the following command from time to time in web/img and web/_posts to keep the submodules current. This is not needed immedaitely after submitting the PR, as it has already been set to a commit. Just run it every week or so and submit a PR for the update!
 
 ``` bash
+git pull
 git submodule update --remote
 git add .
 git commit -m "Update Submodules"

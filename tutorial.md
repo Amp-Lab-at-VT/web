@@ -206,6 +206,8 @@ Put whatever text you need here
 
 **The button needs to be updated**
 **Make which URL you need more clear**
+**Change sample image for post**
+
 In the repo link, provide the link to your repo as well as the name. Here is what is given in the template:
 
 ```html
